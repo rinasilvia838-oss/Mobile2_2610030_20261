@@ -5,18 +5,15 @@ export const authStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#F8FAFC",
   },
-
   flexContainer: {
     flex: 1,
   },
-
   scrollContent: {
     flexGrow: 1,
     justifyContent: "center",
     paddingHorizontal: 22,
     paddingVertical: 28,
   },
-
   topBackButton: {
     width: 42,
     height: 42,
@@ -33,12 +30,10 @@ export const authStyles = StyleSheet.create({
     shadowRadius: 6,
     elevation: 2,
   },
-
   headerArea: {
     alignItems: "center",
     marginBottom: 24,
   },
-
   logoBadge: {
     width: 64,
     height: 64,
@@ -50,7 +45,6 @@ export const authStyles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 14,
   },
-
   title: {
     fontSize: 24,
     fontWeight: "800",
@@ -58,7 +52,6 @@ export const authStyles = StyleSheet.create({
     letterSpacing: -0.3,
     textAlign: "center",
   },
-
   subtitle: {
     fontSize: 13.5,
     color: "#64748B",
@@ -67,7 +60,6 @@ export const authStyles = StyleSheet.create({
     lineHeight: 20,
     paddingHorizontal: 10,
   },
-
   card: {
     backgroundColor: "#FFFFFF",
     borderRadius: 22,
@@ -80,18 +72,15 @@ export const authStyles = StyleSheet.create({
     shadowRadius: 18,
     elevation: 3,
   },
-
   formGroup: {
     marginBottom: 16,
   },
-
   label: {
     fontSize: 13,
     fontWeight: "600",
     color: "#334155",
     marginBottom: 7,
   },
-
   inputWrapper: {
     flexDirection: "row",
     alignItems: "center",
@@ -102,131 +91,85 @@ export const authStyles = StyleSheet.create({
     paddingHorizontal: 14,
     height: 50,
   },
-
   inputWrapperFocused: {
     backgroundColor: "#FFFFFF",
-    borderColor: "#2563EB",
+    borderColor: "#089e92",
   },
-
   inputIcon: {
     marginRight: 10,
   },
-
   input: {
     flex: 1,
     fontSize: 14,
     color: "#0F172A",
   },
-
   eyeButton: {
     paddingLeft: 8,
     paddingVertical: 4,
   },
-
   helperText: {
     fontSize: 11.5,
     color: "#94A3B8",
     marginTop: 5,
   },
-
   primaryButton: {
     flexDirection: "row",
-    backgroundColor: "#2563EB",
+    backgroundColor: "#089e92",
     borderRadius: 14,
     height: 52,
     justifyContent: "center",
     alignItems: "center",
     gap: 8,
     marginTop: 6,
-    shadowColor: "#2563EB",
+    shadowColor: "#089e92",
     shadowOffset: { width: 0, height: 6 },
     shadowOpacity: 0.25,
     shadowRadius: 12,
     elevation: 4,
   },
-
+  primaryButtonDisabled: {
+    opacity: 0.65,
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F8FAFC",
+  },
   primaryButtonText: {
     color: "#FFFFFF",
     fontSize: 15,
     fontWeight: "700",
   },
-
-  feedback: {
-    borderRadius: 12,
-    borderWidth: 1,
-    padding: 12,
-    marginTop: 14,
-  },
-
-  feedbackError: {
-    backgroundColor: "#FEF2F2",
-    borderColor: "#FECACA",
-  },
-
-  feedbackSuccess: {
-    backgroundColor: "#F0FDF4",
-    borderColor: "#BBF7D0",
-  },
-
-  feedbackTitle: {
-    fontSize: 13,
-    fontWeight: "700",
-    color: "#0F172A",
-  },
-
-  feedbackMessage: {
-    fontSize: 13,
-    color: "#334155",
-    lineHeight: 19,
-    marginTop: 4,
-  },
-
-  feedbackButton: {
-    alignSelf: "flex-start",
-    marginTop: 10,
-    paddingVertical: 6,
-  },
-
-  feedbackButtonText: {
-    color: "#2563EB",
-    fontSize: 13,
-    fontWeight: "700",
-  },
-
   dividerRow: {
     flexDirection: "row",
     alignItems: "center",
     marginVertical: 20,
   },
-
   dividerLine: {
     flex: 1,
     height: 1,
     backgroundColor: "#E2E8F0",
   },
-
   dividerText: {
     fontSize: 12,
     color: "#94A3B8",
     marginHorizontal: 12,
     fontWeight: "500",
   },
-
   footerRow: {
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
     gap: 6,
   },
-
   footerText: {
     fontSize: 13.5,
     color: "#64748B",
   },
-
   footerLink: {
     fontSize: 13.5,
     fontWeight: "700",
-    color: "#2563EB",
+    color: "#089e92",
   },
 });

@@ -1,4 +1,4 @@
-import { tabNavColors, tabStyles } from "@/styles/tabsStyles";
+import { tabNavColors, tabStyles } from "@/styles/tabStyles";
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import { View } from "react-native";

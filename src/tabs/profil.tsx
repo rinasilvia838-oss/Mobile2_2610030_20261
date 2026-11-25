@@ -1,4 +1,4 @@
-import { tabStyles } from "@/styles/tabsStyles";
+import { tabStyles } from "@/styles/tabStyles";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import {
